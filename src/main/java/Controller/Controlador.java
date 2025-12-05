@@ -28,4 +28,10 @@ public class Controlador {
         }
         servico.salvarModeloDoControlador(modelo);
     }
+
+    public void listarProdutos(){
+        servico.salvarPedidoDeListarTudo();
+    }
+
+
 }

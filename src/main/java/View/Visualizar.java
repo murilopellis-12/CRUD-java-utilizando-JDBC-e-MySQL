@@ -37,5 +37,18 @@ public class Visualizar {
         System.out.println("Qual o preço do produto?");
         return sc.nextDouble();
     }
+    public String menuDeCadastro(){
+        System.out.println("|-----------------------------|");
+        System.out.println("| LOJA DE PRODUTOS DO MURILO: |");
+        System.out.println("|-----------------------------|");
+        System.out.println("|         INFORMÁTICA         |");
+        System.out.println("|                             |");
+        System.out.println("| - CADASTRAR                 |");
+        System.out.println("| - LISTAR                    |");
+        System.out.println("|-----------------------------|");
+
+        return sc.nextLine();
+    }
+
 
 }

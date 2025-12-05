@@ -14,5 +14,8 @@ public class Servico {
          */
         produto.cadastrarProduto(modelo);
     }
+    public void salvarPedidoDeListarTudo(){
+        produto.listarTodosOsProdutos();
+    }
 
 }

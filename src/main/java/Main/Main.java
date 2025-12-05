@@ -13,8 +13,26 @@ public class Main {
         Controlador controlador = new Controlador();
         Servico servico = new Servico();
 
-        Modelo modelo = visualizar.juncaoDeDadosDeCadastros();
-        controlador.recebimentoDeDadosDeProduto(modelo);
+        String opcaoEscolhida = visualizar.menuDeCadastro();
+
+
+            if(opcaoEscolhida.equalsIgnoreCase("CADASTRAR")){
+                Modelo modelo = visualizar.juncaoDeDadosDeCadastros();
+                controlador.recebimentoDeDadosDeProduto(modelo);
+            }
+            else if(opcaoEscolhida.equalsIgnoreCase("LISTAR")){
+                controlador.listarProdutos();
+            }
+
 
     }
 }
+
+
+
+
+
+
+
+
+
