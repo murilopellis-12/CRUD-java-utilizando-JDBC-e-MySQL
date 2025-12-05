@@ -64,3 +64,4 @@ build/
 ### Mac OS ###
 .DS_Store
 >>>>>>> ff6a0d3 (Esse é o primeiro esboço do CRUD, adicionando apenas a inserção de novos produtos)
+.idea/
