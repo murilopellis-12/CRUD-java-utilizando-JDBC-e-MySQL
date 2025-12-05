@@ -8,7 +8,7 @@ public class Conexao {
     private static final String URL = "jdbc:mysql://localhost:3306/techparts_db";
     private static final String USUARIO = "root";
     private static final String SENHA = "root";
-
+    //Apenas teste de conexão
     private static Connection conn = null;
 
     public static Connection conexao(){
